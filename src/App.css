@@ -31,10 +31,11 @@
 
 
 .btn {
-    padding: 35px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
     color: white;
-
+    margin: 15px 15px;
 }
 
 .btn-num {
@@ -54,11 +55,6 @@
     justify-content: center;
 }
 
-.col-1 {
-    width: 25%;
-    justify-content: center;
-}
-
 .row {
     width: 100%;
     display: flex;
@@ -68,4 +64,17 @@
 .keypad {
     width: 450px;
     align-self: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn:nth-child(10) {
+    width: 190px;
+    border-radius: 50px;
 }

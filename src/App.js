@@ -29,9 +29,7 @@ function App() {
             <Specials />
             <Numbers />
           </div>
-          <div class="col-1">
             <Operators />
-          </div>
         </div>
       </div>
     </div>
