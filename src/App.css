@@ -19,4 +19,62 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    align-self: center;
+}
+.logo-container {
+    padding: 30px 30px 0px;
+}
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    color: white;
+    margin: 15px 15px;
+}
+
+.btn-num {
+    background-color: #184379;
+}
+
+.btn-special {
+    background-color: #225d9e;
+}
+
+.btn-operator {
+    background-color: #237293;
+}
+
+.col-3 {
+    width: 75%;
+    justify-content: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.keypad {
+    width: 450px;
+    align-self: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn:nth-child(10) {
+    width: 190px;
+    border-radius: 50px;
+}
