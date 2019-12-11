@@ -6,16 +6,16 @@ import OperatorButton from "./OperatorButton";
 
 //Import your array data to from the provided data file
 
-const Operators = () => {
+const Operators = (props) => {
   // STEP 2 - add the imported data to state
-  const [operatorState] = useState(operators);
+  //const [operatorState] = useState(operators);
   return (
-    <div class="flex-col">
+    <div className="flex-col">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
-       {operatorState.map((item) => (
-         <OperatorButton value={item.char} button={item.value} />
+       {props.operatorState.map((item, index) => (
+         <OperatorButton value={item.char} button={item.value} key={index} />
        ))} 
     </div>
   );
